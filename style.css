@@ -1,0 +1,77 @@
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.inBlock {
+    margin: 15px;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.outBlock {
+    margin: 5px;
+    padding: 5px;
+}
+
+.buttons {
+    margin: 15px;
+    padding: 0px;
+}
+.load_save_btns, .tgl_buttons, .xx {
+    margin-bottom: 5px;
+}
+.print_out, 
+.paper_out, 
+.lam_out,
+.uf_out,
+.stamp_out,
+.big_out,
+.falz_out,
+.sbor_out,
+.upak_out,
+.tiraj_out {
+    margin: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.print_in :nth-child(n), 
+.paper_in :nth-child(n),
+.lam_in :nth-child(n),
+.uf_in :nth-child(n),
+.big_in :nth-child(n),
+.falz_in :nth-child(n),
+.stamp_in :nth-child(n),
+.sbor_in :nth-child(n),
+.upak_in :nth-child(n),
+.tiraj_in :nth-child(n) {
+    padding: 3px;
+    margin: 3px;
+}
+
+.none {
+    display: none;
+}
+input {
+    width: 100px;
+}
+
+span {
+    padding: 3px;
+}
+
+.tgl_buttons .color {
+    background-color: rgb(125, 125, 125);
+    color: aliceblue;
+    border: 2px solid rgb(125, 125, 125);
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+.tgl_buttons :nth-child(n) {
+    margin-bottom: 5px;
+    padding: 5px;
+}
